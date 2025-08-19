@@ -2,7 +2,7 @@
 
 | **[Contents](Contents/Content.md)** | **[Syllabus](Contents/Syllabus.md)** | **[IS Codes](Contents/Codes.md)** | **[Contact](Contents/Contact.md)** |  
 
-![EEE](Contents/Images/EEE.png)
+![EEE](Contents/EEE.png)
 
 ---
 
