@@ -226,5 +226,184 @@ Approximate energies:
 
 ✅ *Key Point:* While Richter is of historical importance, **Moment Magnitude (Mw)** is the accepted standard in earthquake engineering and seismology.
 
+---
+
+## 1.5 Intensity
+
+### Definition
+
+* **Seismic Intensity** is a qualitative measure of the effects of an earthquake at a specific location, as perceived by people, damage to structures, and changes in the natural environment.
+* Unlike **magnitude**, which is a single value describing the energy released at the source, **intensity varies with location** and diminishes with increasing distance from the epicenter.
+
+---
+
+### Common Intensity Scales
+
+1. **Modified Mercalli Intensity (MMI) Scale** (I–XII)
+
+   * Based on human perception and damage to buildings.
+   * Example:
+
+     * MMI I – Barely felt, only by sensitive instruments.
+     * MMI VI – Felt by all, slight damage to weak structures.
+     * MMI XII – Total destruction.
+
+   ![Figure Placeholder: MMI scale effects on structures and people](figures/MMI_scale.png)
+
+2. **Medvedev–Sponheuer–Karnik (MSK) Scale** (I–XII)
+
+   * Widely used in India and Europe.
+   * Considers structural response of buildings, ground effects, and human perception.
+
+   ![Figure Placeholder: MSK intensity classification](figures/MSK_scale.png)
+
+3. **European Macroseismic Scale (EMS-98)**
+
+   * Improved version of MSK scale, used in Europe.
+   * Provides detailed building vulnerability and damage grades.
+
+---
+
+### Relation between Intensity and Ground Motion
+
+* Intensity is correlated with **peak ground acceleration (PGA)** and **peak ground velocity (PGV)**.
+* However, it is not a direct physical measurement but rather an **observational description**.
+
+---
+
+### Real-World Examples
+
+* **Bhuj Earthquake, 2001 (Magnitude \~7.7)**
+
+  * Epicentral region: Intensity X–XI (devastating damage).
+  * Ahmedabad (\~250 km away): Intensity VI–VII (moderate to strong shaking).
+
+* **Nepal Earthquake, 2015 (Magnitude \~7.8)**
+
+  * Kathmandu: Intensity VIII–IX (heavy damage to buildings).
+  * Northern India: Intensity IV–V (felt by people indoors, minor effects).
+
+---
+
+### Difference between Magnitude and Intensity
+
+| **Aspect**     | **Magnitude**                                     | **Intensity**                                           |
+| -------------- | ------------------------------------------------- | ------------------------------------------------------- |
+| **Definition** | Quantitative measure of energy released at source | Qualitative measure of effects at a location            |
+| **Scale Used** | Richter, Moment Magnitude (Mw), etc.              | MMI, MSK, EMS-98                                        |
+| **Nature**     | Instrumental, single value per earthquake         | Observational, varies from place to place               |
+| **Dependence** | Depends on fault rupture and energy release       | Depends on distance, geology, and local site conditions |
+| **Range**      | Typically 0–10                                    | Typically I–XII                                         |
+| **Example**    | Bhuj 2001: Magnitude 7.7                          | Intensities ranged from VI to XI regionally             |
+
+---
+
+# **1.6 Peak Ground Motion Parameters**
+
+Peak ground motion parameters are quantitative measures that describe the maximum response of the ground during an earthquake. They are crucial for **engineering design**, **seismic hazard assessment**, and **structural safety evaluation**. Unlike intensity (a qualitative measure of earthquake effects on people and structures), peak ground motion parameters provide **instrumental, numerical values** recorded by seismographs.
+
+## **1.6.1 Key Parameters**
+
+1. **Peak Ground Acceleration (PGA)**
+
+   * Definition: The maximum absolute value of ground acceleration during an earthquake.
+   * Mathematical Representation:
+
+     $$
+     PGA = \max \left| \ddot{u}(t) \right|
+     $$
+
+     where $\ddot{u}(t)$ = ground acceleration at time $t$.
+   * Units: usually expressed in **g** (acceleration due to gravity, $9.81 \, m/s^2$).
+   * Engineering Use:
+
+     * Strong correlation with **structural damage**.
+     * Used as a design input in **building codes** (e.g., IS 1893 in India).
+
+   *(Insert Figure 1.6.1: Example ground acceleration time-history showing PGA)*
+
+
+2. **Peak Ground Velocity (PGV)**
+
+   * Definition: The maximum absolute value of ground velocity during shaking.
+   * Mathematical Representation:
+
+     $$
+     PGV = \max \left| \dot{u}(t) \right|
+     $$
+
+     where $\dot{u}(t)$ = ground velocity.
+   * Units: cm/s or m/s.
+   * Engineering Use:
+
+     * Better indicator of **structural response** (especially for flexible structures).
+     * Often correlated with **damage to lifelines** (e.g., pipelines, bridges).
+
+   *(Insert Figure 1.6.2: Example velocity time-history showing PGV)*
+
+3. **Peak Ground Displacement (PGD)**
+
+   * Definition: The maximum absolute value of ground displacement during shaking.
+   * Mathematical Representation:
+
+     $$
+     PGD = \max \left| u(t) \right|
+     $$
+   * Units: cm or m.
+   * Engineering Use:
+
+     * Important for **long-period structures** (e.g., tall buildings, bridges).
+     * Useful in **permanent ground deformation studies**.
+
+   *(Insert Figure 1.6.3: Example displacement time-history showing PGD)*
+
+## **1.6.2 Inter-relationships**
+
+* PGA, PGV, and PGD are **interconnected** through ground motion frequency content.
+* In general:
+
+  * **High-frequency earthquakes** → larger PGA, smaller PGD.
+  * **Low-frequency earthquakes** → larger PGD, smaller PGA.
+
+*(Insert Figure 1.6.4: Illustration comparing ground motions of high vs. low frequency earthquakes and their peak values)*
+
+
+## **1.6.3 Engineering Applications**
+
+1. **Seismic Design Codes**
+
+   * PGA values define **seismic zones** (e.g., IS 1893 in India specifies design PGA).
+
+2. **Damage Assessment**
+
+   * PGV often correlates with **structural and non-structural damage**.
+
+3. **Disaster Preparedness**
+
+   * Rapid PGA and PGV estimates are used in **Earthquake Early Warning Systems (EEWS)**.
+
+## **1.6.4 Example: 2001 Bhuj Earthquake (Mw 7.7)**
+
+* Recorded PGA: \~0.35g in Kachchh region.
+* PGV: \~40 cm/s.
+* PGD: up to \~30 cm.
+* Observation:
+
+  * **Near-source regions** showed very high PGA leading to collapse of unreinforced masonry.
+  * **Farther regions** had lower PGA but still experienced structural vibrations due to PGV.
+
+## **1.6.5 Summary Table**
+
+| Parameter                | Symbol | Units       | Typical Use                                   |
+| ------------------------ | ------ | ----------- | --------------------------------------------- |
+| Peak Ground Acceleration | PGA    | g or m/s²   | Building code design, damage potential        |
+| Peak Ground Velocity     | PGV    | cm/s or m/s | Lifeline and infrastructure response          |
+| Peak Ground Displacement | PGD    | cm or m     | Long-period structures, permanent deformation |
+
+---
+
+
+
+
 
 
