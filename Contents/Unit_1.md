@@ -151,76 +151,80 @@ Types of faults:
 
 ---
 
-# 1.4 Magnitude
+## 1.4 Magnitude
 
-Magnitude is a quantitative measure of the **energy released at the source of an earthquake**. It is a logarithmic scale, meaning each unit increase in magnitude represents a tenfold increase in amplitude of seismic waves and about **31.6 times more energy released**.
+**Magnitude** is a quantitative measure of the **energy released at the earthquake source**. It’s **logarithmic**: each unit increase in magnitude corresponds to a **tenfold increase in recorded wave amplitude** and about **$10^{1.5}\approx 31.6$ times more energy released**.
 
-## 1.4.1 Richter Scale (Local Magnitude, ML)
+### 1.4.1 Richter Scale (Local Magnitude, $M_L$)
 
-- Developed in 1935 by **Charles F. Richter**.
-- Based on the amplitude of seismic waves recorded by a standard seismograph.
-- Formula:
+Developed by Charles F. Richter (1935) for local earthquakes.
 
-\[
+Display form:
+
+$$
 M_L = \log_{10}(A) - \log_{10}(A_0)
-\]
+$$
 
-Where:  
-- \( A \) = maximum trace amplitude on the seismogram.  
-- \( A_0 \) = standard amplitude for a given distance from epicenter.
+Where:
 
-- Works well for **local earthquakes (within ~600 km)**.  
-- Saturates for large earthquakes (M > 6.5).
+* $A$ = maximum trace amplitude on the seismogram,
+* $A_0$ = reference amplitude (calibrated for distance/instrument).
+
+Notes:
+
+* Best for **local events** (typically within \~600 km).
+* **Saturates** for large earthquakes (roughly $M>6.5$).
 
 ![Figure Placeholder: Richter Scale graph showing amplitude vs. magnitude](figures/richter_scale.png)
 
-## 1.4.2 Moment Magnitude Scale (Mw)
+### 1.4.2 Moment Magnitude Scale ($M_w$)
 
-- Introduced to overcome limitations of the Richter Scale.  
-- Based on **seismic moment (M₀)**:
+Designed to work for **all earthquake sizes** (does **not** saturate). Defined from **seismic moment** $M_0$:
 
-\[
-M_w = \frac{2}{3} \log_{10}(M_0) - 6.0
-\]
+$$
+M_w = \frac{2}{3}\,\log_{10}\!\left(M_0\right) - 6.0
+$$
 
-Where:  
-\[
-M_0 = \mu \cdot A \cdot D
-\]  
+with
 
-- \( \mu \) = shear modulus of rock (~3 × 10¹⁰ N/m²).  
-- \( A \) = rupture area (m²).  
-- \( D \) = average slip on the fault (m).  
+$$
+M_0 = \mu \, A \, D
+$$
 
-- **Does not saturate** for large earthquakes.  
-- Now the **most widely used scale globally**.
+Where:
 
-![Figure Placeholder: Seismic Moment representation (fault slip area × slip displacement × rigidity)](figures/moment_magnitude.png)
+* $\mu$ = shear modulus (rigidity) of rock $\left[\text{N/m}^2\right]$,
+* $A$ = rupture area $\left[\text{m}^2\right]$,
+* $D$ = average slip on the fault $\left[\text{m}\right]$.
 
-## 1.4.3 Comparison of Magnitude Scales
+*(Constant $6.0$ is an approximation; values like $6.06$ are also used depending on units and calibration.)*
 
-- **Richter (ML):** Local, historical, not reliable for large EQs.  
-- **Moment Magnitude (Mw):** Standard for scientific and engineering use.  
-- Other scales:
-  - **Body-Wave Magnitude (Mb):** Uses P-waves, suitable for distant quakes.  
-  - **Surface-Wave Magnitude (Ms):** Based on surface waves (~20s period).  
+![Figure Placeholder: Seismic Moment representation (fault area × slip × rigidity)](figures/moment_magnitude.png)
 
-![Figure Placeholder: Comparison chart of Richter vs. Moment Magnitude for increasing earthquake sizes](figures/magnitude_comparison.png)
+### 1.4.3 Other Magnitude Scales
 
-## 1.4.4 Energy Released
+* **Body-Wave Magnitude** $M_b$: based on P-waves (useful for teleseismic, smaller events).
+* **Surface-Wave Magnitude** $M_s$: based on long-period surface waves (\~20 s).
+* Historical $M_L$ vs. modern $M_w$: $M_w$ is the **standard** for engineering and seismology.
 
-Approximate energy release in Joules (for reference):
+![Figure Placeholder: Comparison chart of ML, Ms, and Mw for increasing earthquake size](figures/magnitude_comparison.png)
 
-- M 5.0 → \(10^{12}\) J  
-- M 6.0 → \(10^{14}\) J  
-- M 7.0 → \(10^{16}\) J  
-- M 8.0 → \(10^{18}\) J  
+### 1.4.4 Energy Released
 
-This demonstrates the **exponential growth** of energy with increasing magnitude.
+Empirical relation between **radiated energy $E$** (Joules) and **$M_w$**:
 
+$$
+\log_{10} E \;=\; 1.5\, M_w \;+\; 4.8
+$$
+
+Approximate energies:
+
+* $M_w = 5$ → $E \approx 2 \times 10^{12}\ \text{J}$
+* $M_w = 6$ → $E \approx 6 \times 10^{13}\ \text{J}$
+* $M_w = 7$ → $E \approx 2 \times 10^{15}\ \text{J}$
+* $M_w = 8$ → $E \approx 6 \times 10^{16}\ \text{J}$
 
 ✅ *Key Point:* While Richter is of historical importance, **Moment Magnitude (Mw)** is the accepted standard in earthquake engineering and seismology.
 
----
 
 
