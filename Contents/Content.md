@@ -14,4 +14,4 @@
 
 - [**Unit 7:**](Unit_7.md) Introduction to provisions of IS 4326
 
-- [**Unit 8:**](Unit_8.md) – Introduction to provisions of IS 13920
+- [**Unit 8:**](Unit_8.md) Introduction to provisions of IS 13920
