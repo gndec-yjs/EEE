@@ -149,6 +149,10 @@ Damages can broadly be classified into:
    * Buildings tilt or sink.
    * *Example*: Tilting of multi-storey buildings in Mexico City (1985).
    * **Key factor**: Poor soil investigation before construction.
+  
+<img width="500" height="297" alt="image" src="https://github.com/user-attachments/assets/b827592f-cc41-4d79-ad70-34120d0ead22" />
+
+*Fig. Some effects of soil liquefaction after the 1964 Niigata earthquake*
 
 <img width="846" height="868" alt="image" src="https://github.com/user-attachments/assets/b8d3b705-af22-4d43-a7fc-f3166d35dd4c" />
 
@@ -165,40 +169,68 @@ Damages can broadly be classified into:
      * Buckling under axial loads
    * *Example*: Bhuj (2001) – brittle column shear failures in poorly detailed RC buildings.
 
-   ![Placeholder: Shear failure in column](#)
+<img width="697" height="785" alt="image" src="https://github.com/user-attachments/assets/618866d7-4d8e-428e-81b9-2e007d6c05d3" />
 
-3. **Beam Failures**
+*Fig. Shear failure of columns during the 1971 San Fernando earthquake*
+
+<img width="1390" height="852" alt="image" src="https://github.com/user-attachments/assets/41168b72-dd1c-463d-9c6a-3deb137993ac" />
+
+*Fig. Seismic Shear Failure in Reinforced Concrete Columns*
+
+4. **Beam Failures**
 
    * Flexural cracks at mid-span or shear cracks near supports.
    * Poor reinforcement anchorage leads to brittle fracture.
    * Less catastrophic than column failure but compromises lateral resistance.
 
-   ![Placeholder: Beam flexural cracks](#)
+<img width="549" height="411" alt="image" src="https://github.com/user-attachments/assets/54be4cb9-4fad-43d7-ba55-90927653b864" />
 
-4. **Soft Storey Mechanism**
+*Fig. Beam shear failure during an earthquake*
+
+5. **Soft Storey Mechanism**
 
    * Occurs when **one storey (often ground floor) is much weaker or more flexible** than the others (e.g., parking or open commercial spaces).
    * Concentrated damage leads to "pancake" collapse.
    * *Example*: Many apartment buildings in Bhuj and Nepal earthquakes.
 
-   ![Placeholder: Soft-storey collapse diagram](#)
+<img width="638" height="331" alt="image" src="https://github.com/user-attachments/assets/c6d0c3de-e33f-4d0e-8022-b25c05c25fc8" />
 
-5. **Masonry Wall Failures**
+*Fig. Typical Soft First Storey Mechanism*
+
+
+<img width="532" height="711" alt="image" src="https://github.com/user-attachments/assets/6305f928-75d5-48a5-81a1-385cae0a397d" />
+
+*Fig. Building collapse due to first story failure during the Simav earthquake.*
+
+
+6. **Masonry Wall Failures**
 
    * Out-of-plane collapse due to lack of lateral ties.
    * Diagonal shear cracking in in-plane walls.
    * Parapet and gable wall collapses cause casualties.
    * *Example*: Unreinforced masonry (URM) structures in Kashmir 2005 quake.
 
-   ![Placeholder: Masonry wall crack patterns](#)
+<img width="595" height="198" alt="image" src="https://github.com/user-attachments/assets/5e5ec184-d794-4d01-9cce-77b28fa08707" />
 
-6. **Roof and Slab Failures**
+*Fig. Typical failure modes of unreinforced masonry walls*
+
+<img width="524" height="359" alt="image" src="https://github.com/user-attachments/assets/a69c49bb-0838-4cfe-9e8e-4a900c756eba" />
+
+*Fig. Failure of Walls between Opening*
+
+7. **Roof and Slab Failures**
 
    * Diaphragm action is lost if roof slabs are not properly anchored.
    * Heavy roofs increase inertia forces.
    * Timber roofs perform better due to flexibility and light weight.
 
-   ![Placeholder: Roof slab separation](#)
+<img width="1800" height="1800" alt="image" src="https://github.com/user-attachments/assets/e9a99c53-f511-499f-a987-09fdb7c403df" />
+
+*Fig. Roof and Slab Failures*
+
+<img width="640" height="604" alt="image" src="https://github.com/user-attachments/assets/e6e35bc6-85cb-4adc-b31f-3fecc31eb78a" />
+
+*Fig. Typical Failure Modes of Stone Masonry Building in Weak Mortar*
 
 ## **2.3.3 Types of Non-Structural Damages**
 
@@ -247,7 +279,9 @@ Understanding past earthquake disasters through case studies is one of the most 
 * **Quality assurance** in materials and workmanship is crucial.
 * Need for **public awareness** and earthquake-resistant construction in rural housing.
 
-*(Figure Placeholder: Map showing epicenter and isoseismal lines of Bhuj earthquake)*
+<img width="560" height="489" alt="image" src="https://github.com/user-attachments/assets/1f173f30-8e92-4976-a74e-ef1ff953b5e7" />
+
+*Fig. Map showing epicenter and isoseismal lines of Bhuj earthquake*
 
 ## **2.4.2 Nepal Earthquake, 2015 (Gorkha Earthquake)**
 
@@ -266,7 +300,9 @@ Understanding past earthquake disasters through case studies is one of the most 
 * Importance of **soft-storey avoidance** and **shear wall provision** in tall buildings.
 * Community training and preparedness can reduce fatalities.
 
-*(Figure Placeholder: Before-and-after photos of Kathmandu Durbar Square)*
+<img width="1500" height="844" alt="image" src="https://github.com/user-attachments/assets/f5efc1e1-b502-4c4f-8696-7a6ffcf8bce1" />
+
+*Fig. Before-and-after photos of Kathmandu Durbar Square*
 
 ## **2.4.3 Latur Earthquake, 1993 (India)**
 
@@ -284,7 +320,9 @@ Understanding past earthquake disasters through case studies is one of the most 
 * Need for **seismic zoning and microzonation studies** in non-Himalayan regions.
 * Adoption of **lightweight roof materials** in seismic areas.
 
-*(Figure Placeholder: Typical collapse of heavy-roofed stone masonry house in Latur)*
+<img width="300" height="179" alt="image" src="https://github.com/user-attachments/assets/11f6d1b7-e489-40a6-9814-87d49e533665" />
+
+*Fig. Typical collapse of houses in Latur*
 
 ## **2.4.4 Kobe Earthquake, 1995 (Japan)**
 
@@ -303,7 +341,9 @@ Understanding past earthquake disasters through case studies is one of the most 
 * Importance of **column confinement reinforcement** and **foundation stability**.
 * Need for **lifeline structure resilience** (transportation, power, communication).
 
-*(Figure Placeholder: Collapsed Hanshin Expressway in Kobe)*
+<img width="461" height="700" alt="image" src="https://github.com/user-attachments/assets/64b0c46f-93c3-4065-9798-027318624308" />
+
+*Fig. Collapsed Hanshin Expressway in Kobe*
 
 
 ## **2.4.5 Key Takeaways from Case Studies**
