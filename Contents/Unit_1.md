@@ -1,4 +1,4 @@
-<img width="1260" height="581" alt="image" src="https://github.com/user-attachments/assets/309459f8-f6d8-49ce-842c-2a99d5359644" /><script type="text/x-mathjax-config">
+<script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
@@ -144,7 +144,6 @@ Types of faults:
 |                   | Rayleigh Waves     | Rolling, elliptical        | Slightly slower than Love waves | Along Earth's surface | Cause vertical and horizontal motion |
 
 <img width="1260" height="581" alt="image" src="https://github.com/user-attachments/assets/aa4c1253-7335-42ee-af1e-9f2c6768d6a9" />
-
 *Fig. Different seismic waves*
 
 ## 1.3.5 Seismograph & Seismogram
