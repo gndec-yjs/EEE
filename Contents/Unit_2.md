@@ -15,7 +15,7 @@
 
 - [Major Past Earthquakes](#21-major-past-earthquakes)  
 - [Lessons Learnt](#22-lessons-learnt)  
-- [Types of Building Damages](#23-types-of-building-damages)  
+- [Types of Damages to Buildings](#23-types-of-damages-to-buildings)  
 - [Case Studies](#24-case-studies)  
 
 ## 2.1 Major Past Earthquakes  
@@ -30,8 +30,6 @@ Earthquakes of different magnitudes and intensities across the world have demons
 | 1995 | Kobe, Japan | 6.9 | Severe damage to highways, bridges, and lifelines |
 | 2011 | Tohoku, Japan | 9.0 | Ground shaking + tsunami, >18,000 deaths, nuclear crisis |
 
-*(Insert Fig. 2.1.1: Global map showing major earthquake locations)*  
-
 ### 🇮🇳 Major Indian Earthquakes  
 
 | Year | Location | Magnitude (Mw) | Casualties | Structural Damage |
@@ -42,7 +40,9 @@ Earthquakes of different magnitudes and intensities across the world have demons
 | 2001 | Bhuj, Gujarat | 7.7 | ~13,800 deaths | Collapse of RC frames with poor detailing, masonry failures |
 | 2015 | Nepal (affected N. India) | 7.8 | ~9,000 deaths | Masonry collapse, severe damage in Kathmandu Valley |
 
-*(Insert Fig. 2.1.2: Photos of building collapses from Bhuj 2001 & Nepal 2015)*  
+<img width="480" height="267" alt="image" src="https://github.com/user-attachments/assets/634259c5-a9bd-4fcc-b901-0acc99d31434" />
+
+*Fig. Building collapses from Bhuj 2001*
 
 
 📌 **Key Observations**  
@@ -111,17 +111,9 @@ Earthquakes have repeatedly shown that while they are natural phenomena, the **e
 | **Soil Conditions**   | Amplification, liquefaction → severe damage | Proper site selection & foundation design → reduced risk |
 | **Public Awareness**  | Panic, unpreparedness → casualties          | Drills & awareness → safe evacuation, reduced fatalities |
 
-
-📌 **Figure placeholders:**
-
-* *Fig. 2.2.1*: Collapse of non-engineered masonry (Bhuj 2001).
-* *Fig. 2.2.2*: Ductile detailing in RC frame vs brittle failure.
-* *Fig. 2.2.3*: Liquefaction effects on buildings.
-* *Fig. 2.2.4*: Japan’s public earthquake drill.
-
 ---
 
-# **2.3 Various Types of Damages to Buildings**
+# **2.3 Types of Damages to Buildings**
 
 Earthquakes affect buildings in diverse ways depending on **structural design, materials, soil conditions, and intensity of shaking**. Recognizing the common types of damages helps engineers design safer buildings and prepare effective mitigation strategies.
 
@@ -136,7 +128,8 @@ Damages can broadly be classified into:
    * Critical for life safety.
    * *Examples*: Column shear failure in Bhuj (2001), soft-storey collapse in Nepal (2015).
 
-   ![Placeholder: Structural damage in RCC frame](#)
+
+*Fig. Structural damage in RCC frame*
 
 2. **Non-Structural Damage**
 
@@ -144,7 +137,9 @@ Damages can broadly be classified into:
    * Though less critical for collapse, these damages can cause injuries, economic loss, and disrupt functionality.
    * *Examples*: Cracking of plaster, collapse of parapet walls, falling false ceilings.
 
-   ![Placeholder: Non-structural wall damage](#)
+<img width="680" height="425" alt="image" src="https://github.com/user-attachments/assets/6e44f42d-e5c0-477b-bb14-c6de6e4c409a" />
+
+*Fig. Non-structural wall damage*
 
 ## **2.3.2 Types of Structural Damages**
 
@@ -155,7 +150,10 @@ Damages can broadly be classified into:
    * *Example*: Tilting of multi-storey buildings in Mexico City (1985).
    * **Key factor**: Poor soil investigation before construction.
 
-   ![Placeholder: Foundation settlement](#)
+<img width="846" height="868" alt="image" src="https://github.com/user-attachments/assets/b8d3b705-af22-4d43-a7fc-f3166d35dd4c" />
+
+*Fig.  Liquefaction induced building displacement mechanisms: (a) ground loss due to sand ejecta; shear-induced settlement from (b) punching failure, or (c) soil-structure interaction (SSI) ratcheting; and volumetric induced settlement from (d) sedimentation or (e ) post-liquefaction reconsolidation*
+
 
 2. **Column Failures**
 
