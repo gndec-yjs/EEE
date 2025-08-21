@@ -20,4 +20,4 @@
 
 ---
 
-📝 *This list focuses on earthquake-related IS codes. For complete and updated codes, refer to the [BIS portal](https://www.services.bis.gov.in:8071/php/BIS_2.0/).*
+📝 *This list focuses on earthquake-related IS codes. For complete and updated codes, refer to the [BIS portal](https://www.bis.gov.in).*
