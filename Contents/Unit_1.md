@@ -1,4 +1,4 @@
-<script type="text/x-mathjax-config">
+<img width="1260" height="581" alt="image" src="https://github.com/user-attachments/assets/309459f8-f6d8-49ce-842c-2a99d5359644" /><script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
@@ -96,7 +96,7 @@ While tectonic earthquakes are the **most significant** for structural design, e
 
 Understanding earthquake engineering requires familiarity with some essential terms. These terms are frequently used in seismology, earthquake-resistant design, and building codes.
 
----
+<img width="412" height="333" alt="image" src="https://github.com/user-attachments/assets/bb4ff30b-485b-4dd6-a17c-0bf1c1d34fd5" />
 
 ## 1.3.1 Focus (Hypocenter)
 
@@ -104,14 +104,10 @@ Understanding earthquake engineering requires familiarity with some essential te
 * Energy is released here due to fault rupture.
 * Located at a certain depth below the surface.
 
-**Figure 1.3.1: Hypocenter inside the Earth (placeholder)**
-
 ## 1.3.2 Epicenter
 
 * The point on the Earth’s surface vertically above the focus.
 * Commonly reported in earthquake data (e.g., “epicenter near Delhi”).
-
-**Figure 1.3.2: Epicenter vs. Focus (placeholder)**
 
 ## 1.3.3 Fault
 
@@ -124,7 +120,9 @@ Types of faults:
 * Reverse (Thrust) Fault
 * Strike-Slip Fault
 
-**Figure 1.3.3: Types of Faults (placeholder)**
+<img width="1394" height="350" alt="image" src="https://github.com/user-attachments/assets/588ac863-eddc-4e4a-ad8b-e1752fdce381" />
+
+*Fig. Types of Faults*
 
 ## 1.3.4 Seismic Waves
 
@@ -135,23 +133,48 @@ Types of faults:
 
     * *P-waves*: Primary, compressional, fastest.
     * *S-waves*: Secondary, shear, slower than P-waves.
-  * **Surface Waves** (travel along the surface)
-
+    * **Surface Waves** (travel along the surface)
     * Love Waves, Rayleigh Waves.
 
-**Figure 1.3.4: Different seismic waves (placeholder)**
+| **Wave Type**      | **Subtypes**       | **Nature of Motion**        | **Speed**           | **Travel Medium**         | **Remarks**                          |
+|-------------------|------------------|----------------------------|-------------------|-------------------------|--------------------------------------|
+| **Body Waves**     | P-waves (Primary) | Compressional              | Fastest            | Solids, liquids, gases  | First to be detected by seismographs |
+|                   | S-waves (Secondary)| Shear (transverse)        | Slower than P      | Solids only             | Cannot travel through liquids        |
+| **Surface Waves**  | Love Waves        | Horizontal shear           | Slower than S      | Along Earth's surface   | Cause strong horizontal shaking      |
+|                   | Rayleigh Waves     | Rolling, elliptical        | Slightly slower than Love waves | Along Earth's surface | Cause vertical and horizontal motion |
+
+<img width="1260" height="581" alt="image" src="https://github.com/user-attachments/assets/aa4c1253-7335-42ee-af1e-9f2c6768d6a9" />
+
+*Fig. Different seismic waves*
 
 ## 1.3.5 Seismograph & Seismogram
 
 * **Seismograph**: Instrument used to record ground motion.
 * **Seismogram**: Graphical output showing wave patterns.
 
-**Figure 1.3.5: Typical seismogram (placeholder)**
+| **Feature**        | **Seismograph**                                         | **Seismogram**                                   |
+|-------------------|--------------------------------------------------------|------------------------------------------------|
+| **Definition**     | Instrument used to detect and record seismic waves.    | The record or output produced by a seismograph. |
+| **Function**       | Measures ground motion during an earthquake.          | Provides a visual representation of seismic activity over time. |
+| **Form**           | Physical device with sensors and recording system.     | Paper trace or digital plot showing waveforms. |
+| **Purpose**        | To sense and capture seismic vibrations.              | To analyze magnitude, arrival times, and type of seismic waves. |
+| **Example**        | A vertical or horizontal seismometer setup.           | Graph showing P-wave, S-wave, and surface wave arrivals. |
+
+
+<img width="524" height="392" alt="image" src="https://github.com/user-attachments/assets/b1781f15-6a0a-4d2b-8823-65540df8ea36" />
+
+<img width="223" height="226" alt="image" src="https://github.com/user-attachments/assets/c6177785-c34d-4a4b-afb9-9ffb08c572b0" />
+
+*Fig. Typical seismogram and seismograph*
 
 ## 1.3.6 Isoseismal Lines
 
 * Lines drawn on a map connecting points of equal earthquake intensity.
 * Useful for showing how shaking varies across a region.
+
+<img width="375" height="343" alt="image" src="https://github.com/user-attachments/assets/9697f8bb-1c18-4036-af76-999d933d65ff" />
+
+*Fig. Isoseismal map for the 1968 Illinois earthquake*
 
 ---
 
@@ -179,7 +202,10 @@ Notes:
 * Best for **local events** (typically within \~600 km).
 * **Saturates** for large earthquakes (roughly $M>6.5$).
 
-![Figure Placeholder: Richter Scale graph showing amplitude vs. magnitude](figures/richter_scale.png)
+<img width="1024" height="683" alt="image" src="https://github.com/user-attachments/assets/f4503884-5254-4294-a89b-7fa6fb913a20" />
+
+<img width="1272" height="551" alt="image" src="https://github.com/user-attachments/assets/cc7f1972-5b54-4627-8227-00275d0c95e4" />
+
 
 ### 1.4.2 Moment Magnitude Scale ($M_w$)
 
@@ -203,7 +229,6 @@ Where:
 
 *(Constant $6.0$ is an approximation; values like $6.06$ are also used depending on units and calibration.)*
 
-![Figure Placeholder: Seismic Moment representation (fault area × slip × rigidity)](figures/moment_magnitude.png)
 
 ### 1.4.3 Other Magnitude Scales
 
@@ -211,7 +236,6 @@ Where:
 * **Surface-Wave Magnitude** $M_s$: based on long-period surface waves (\~20 s).
 * Historical $M_L$ vs. modern $M_w$: $M_w$ is the **standard** for engineering and seismology.
 
-![Figure Placeholder: Comparison chart of ML, Ms, and Mw for increasing earthquake size](figures/magnitude_comparison.png)
 
 ### 1.4.4 Energy Released
 
@@ -252,19 +276,25 @@ Approximate energies:
      * MMI VI – Felt by all, slight damage to weak structures.
      * MMI XII – Total destruction.
 
-   ![Figure Placeholder: MMI scale effects on structures and people](figures/MMI_scale.png)
+<img width="1336" height="1011" alt="image" src="https://github.com/user-attachments/assets/dc75937e-3be9-430d-8ae5-c4dd2f8419a7" />
+
+<img width="1060" height="575" alt="image" src="https://github.com/user-attachments/assets/17573503-bf6d-46bc-81bb-706abaf32656" />
+
 
 2. **Medvedev–Sponheuer–Karnik (MSK) Scale** (I–XII)
 
    * Widely used in India and Europe.
    * Considers structural response of buildings, ground effects, and human perception.
 
-   ![Figure Placeholder: MSK intensity classification](figures/MSK_scale.png)
+<img width="703" height="403" alt="image" src="https://github.com/user-attachments/assets/fc9b5caa-bdec-4b18-b8b0-2cba04e6458f" />
+
 
 3. **European Macroseismic Scale (EMS-98)**
 
    * Improved version of MSK scale, used in Europe.
    * Provides detailed building vulnerability and damage grades.
+
+<img width="533" height="259" alt="image" src="https://github.com/user-attachments/assets/66f2ac9c-e0e9-4100-969f-86a011721005" />
 
 ---
 
@@ -306,6 +336,10 @@ Approximate energies:
 
 Peak ground motion parameters are quantitative measures that describe the maximum response of the ground during an earthquake. They are crucial for **engineering design**, **seismic hazard assessment**, and **structural safety evaluation**. Unlike intensity (a qualitative measure of earthquake effects on people and structures), peak ground motion parameters provide **instrumental, numerical values** recorded by seismographs.
 
+
+<img width="720" height="480" alt="image" src="https://github.com/user-attachments/assets/85d682f1-16ee-41b6-be03-348684b370d1" />
+
+
 ## **1.6.1 Key Parameters**
 
 1. **Peak Ground Acceleration (PGA)**
@@ -324,9 +358,6 @@ Peak ground motion parameters are quantitative measures that describe the maximu
      * Strong correlation with **structural damage**.
      * Used as a design input in **building codes** (e.g., IS 1893 in India).
 
-   *(Insert Figure 1.6.1: Example ground acceleration time-history showing PGA)*
-
-
 2. **Peak Ground Velocity (PGV)**
 
    * Definition: The maximum absolute value of ground velocity during shaking.
@@ -343,8 +374,6 @@ Peak ground motion parameters are quantitative measures that describe the maximu
      * Better indicator of **structural response** (especially for flexible structures).
      * Often correlated with **damage to lifelines** (e.g., pipelines, bridges).
 
-   *(Insert Figure 1.6.2: Example velocity time-history showing PGV)*
-
 3. **Peak Ground Displacement (PGD)**
 
    * Definition: The maximum absolute value of ground displacement during shaking.
@@ -359,8 +388,6 @@ Peak ground motion parameters are quantitative measures that describe the maximu
      * Important for **long-period structures** (e.g., tall buildings, bridges).
      * Useful in **permanent ground deformation studies**.
 
-   *(Insert Figure 1.6.3: Example displacement time-history showing PGD)*
-
 ## **1.6.2 Inter-relationships**
 
 * PGA, PGV, and PGD are **interconnected** through ground motion frequency content.
@@ -368,8 +395,6 @@ Peak ground motion parameters are quantitative measures that describe the maximu
 
   * **High-frequency earthquakes** → larger PGA, smaller PGD.
   * **Low-frequency earthquakes** → larger PGD, smaller PGA.
-
-*(Insert Figure 1.6.4: Illustration comparing ground motions of high vs. low frequency earthquakes and their peak values)*
 
 
 ## **1.6.3 Engineering Applications**
