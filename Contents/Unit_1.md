@@ -55,7 +55,8 @@ Earthquakes are caused by a **sudden release of energy** within the Earth’s cr
 1. **Tectonic Movements**
 
    * Most common cause.
-   * Earth’s lithosphere is divided into large tectonic plates that float on the <span class="hover-term" title="a semi-molten, mechanically weak layer in the Earth's upper mantle, located beneath the lithosphere.">asthenosphere</span>.
+   * Earth’s lithosphere is divided into large tectonic plates that float on the
+     <span title="A semi-molten, mechanically weak layer in the Earth's upper mantle.">asthenosphere</span>.
    * Movement along **fault lines** (plate boundaries) causes stress buildup → sudden slip → earthquake.
    * Examples: Himalayan earthquakes (India), San Andreas Fault (USA).
 
