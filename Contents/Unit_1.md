@@ -37,8 +37,9 @@ For civil engineers, understanding earthquakes is crucial because:
 * Earthquakes produce **lateral forces and ground motions** that can cause catastrophic damage if not considered.
 * Seismic design codes (like IS 1893) provide guidelines for ensuring **safety and serviceability** of structures.
 
-![Seismic Waves Diagram](images/seismic_waves.png)
-*Fig. 1.1 Seismic waves radiating from the earthquake focus*
+<img width="649" height="478" alt="image" src="https://github.com/user-attachments/assets/633ab5b1-7cb3-4a26-9326-4af80bb08c71" />
+
+*Fig. Seismic waves radiating from the earthquake focus*
 
 📖 **Fun Fact**:
 On average, about **500,000 earthquakes** occur worldwide every year, of which \~100,000 are felt by humans, and about 100 cause significant damage.
@@ -54,12 +55,13 @@ Earthquakes are caused by a **sudden release of energy** within the Earth’s cr
 1. **Tectonic Movements**
 
    * Most common cause.
-   * Earth’s lithosphere is divided into large tectonic plates that float on the asthenosphere.
+   * Earth’s lithosphere is divided into large tectonic plates that float on the <span class="hover-term" title="a semi-molten, mechanically weak layer in the Earth's upper mantle, located beneath the lithosphere.">asthenosphere</span>.
    * Movement along **fault lines** (plate boundaries) causes stress buildup → sudden slip → earthquake.
    * Examples: Himalayan earthquakes (India), San Andreas Fault (USA).
 
-   ![Tectonic Plates](images/tectonic_plates.png)
-   *Fig. 1.2 Tectonic plate boundaries and earthquake-prone zones*
+<img width="959" height="435" alt="image" src="https://github.com/user-attachments/assets/f2e809e0-3722-405b-885b-d01201787170" />
+
+*Fig. **Crustal generation and destruction** - Three-dimensional diagram showing crustal generation and destruction according to the theory of plate tectonics; included are the three kinds of plate boundaries—divergent, convergent (or collision), and strike-slip (or transform). Tectonic plate boundaries and earthquake-prone zones*
 
 2. **Volcanic Activity**
 
