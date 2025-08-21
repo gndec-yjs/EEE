@@ -52,6 +52,8 @@ On average, about **500,000 earthquakes** occur worldwide every year, of which \
 
 Earthquakes are caused by a **sudden release of energy** within the Earth’s crust. This release generates seismic waves that shake the ground. The causes can be broadly classified into **natural** and **anthropogenic (man-made)**.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T0AEtX-uPLA?si=dOT_tU-3grTvVcKx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### 🌍 Natural Causes
 
 1. **Tectonic Movements**
@@ -93,6 +95,8 @@ Earthquakes are caused by a **sudden release of energy** within the Earth’s cr
 While tectonic earthquakes are the **most significant** for structural design, engineers must also be aware of other induced seismic activities that may affect infrastructure.
 
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RqqqSnaTfQo?si=rWFJma2LZ40d3Lfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # 1.3 Basic Terminology
 
