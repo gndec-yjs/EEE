@@ -20,6 +20,8 @@
 - [Intensity](#15-intensity)
 - [Peak Ground Motion Parameters](#16-peak-ground-motion-parameters)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JrBaiPN6AW8?si=ZnaiRrVcxC1N4NjK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 1.1 Introduction to Earthquakes
 
 An **earthquake** is a sudden shaking or vibration of the Earth’s surface caused by the release of stored energy in the Earth’s crust. This energy is released in the form of **seismic waves**, which travel through the ground and cause the motion that we feel.
