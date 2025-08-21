@@ -1,15 +1,4 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-    
-<script type="text/javascript"
-        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+
 
 # Unit 1: Introduction to Earthquakes
 
@@ -56,7 +45,8 @@ Earthquakes are caused by a **sudden release of energy** within the Earth’s cr
 
    * Most common cause.
    * Earth’s lithosphere is divided into large tectonic plates that float on the
-     <span title="A semi-molten, mechanically weak layer in the Earth's upper mantle.">asthenosphere</span>.
+     <span class="hover-term" title="a semi-molten, mechanically weak layer in the Earth's upper mantle, located beneath the lithosphere.">asthenosphere</span>
+     .
    * Movement along **fault lines** (plate boundaries) causes stress buildup → sudden slip → earthquake.
    * Examples: Himalayan earthquakes (India), San Andreas Fault (USA).
 
