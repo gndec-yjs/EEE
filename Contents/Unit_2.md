@@ -357,4 +357,6 @@ Understanding past earthquake disasters through case studies is one of the most 
 
 ---
 
+## Resources
 
+- [Response of Buildings during Earthquakes](PPT/Buildins_in_Earthquakes.pdf)
