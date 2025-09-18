@@ -4,7 +4,7 @@
 
 - [**Unit 2:**](Unit_2.md) Past Earthquakes and Lessons Learnt, Various Types of Damages to Buildings.
 
-- **Unit 3:** Introduction to Theory of Vibrations, Sources of Vibrations, Types of Vibrations, Degree of Freedom, Spring action and damping, Equation of motion of S.D.O.F. systems, Undamped, Damped system subjected to transient forces, general solution, Green’s function.
+- [**Unit 3:**](Unit_3.md) Introduction to Theory of Vibrations, Sources of Vibrations, Types of Vibrations, Degree of Freedom, Spring action and damping, Equation of motion of S.D.O.F. systems, Undamped, Damped system subjected to transient forces, general solution, Green’s function.
 
 - **Unit 4:** Lateral Force Analysis, Floor Diaphragm action, Moment resisting frames, Shear walls.
 
