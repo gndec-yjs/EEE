@@ -21,6 +21,7 @@
 - [Equation of Motion of SDOF Systems](#36-equation-of-motion-of-sdof-systems)  
 - [Undamped and Damped Systems under Transient Forces](#37-undamped-and-damped-systems-under-transient-forces)  
 - [General Solution and Green’s Function](#38-general-solution-and-greens-function)  
+- [Example Problems](#39-example-problems)  
 
 ## 3.1 Introduction to Theory of Vibrations  
 
@@ -33,8 +34,6 @@ In earthquake engineering, vibration theory provides the foundation to understan
   * Natural frequencies  
   * Mode shapes  
   * Response under dynamic loading (earthquakes, wind, machines)  
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vuWHzzZBuUc" title="YouTube video player" frameborder="0" allowfullscreen></iframe>  
 
 ## 3.2 Sources of Vibrations  
 
@@ -52,9 +51,9 @@ Vibrations in civil structures arise from:
 
 ## 3.3 Types of Vibrations  
 
-| **Type**           | **Description**                                                                 | **Example** |
-|--------------------|---------------------------------------------------------------------------------|-------------|
-| **Free Vibration** | System vibrates on its own after initial disturbance. No external force acts.   | A pendulum released from rest. |
+| **Type**             | **Description**                                                                 | **Example** |
+|----------------------|---------------------------------------------------------------------------------|-------------|
+| **Free Vibration**   | System vibrates on its own after initial disturbance. No external force acts.   | A pendulum released from rest. |
 | **Forced Vibration** | System vibrates under continuous external excitation.                          | Building subjected to wind or earthquake. |
 | **Damped Vibration** | Amplitude decreases with time due to energy dissipation.                      | Car suspension system. |
 | **Undamped Vibration** | Ideal case, no energy loss. Amplitude remains constant.                       | Theoretical spring–mass system. |
@@ -71,8 +70,6 @@ Vibrations in civil structures arise from:
 📌 **Importance in Structural Engineering**  
 - Simplifies modeling.  
 - Most earthquake analyses use **SDOF (Single Degree of Freedom)** or **MDOF (Multi-DOF)** models.  
-
-<img width="450" src="https://github.com/user-attachments/assets/placeholder-DOF.png" />  
 
 ## 3.5 Spring Action and Damping  
 
@@ -93,10 +90,6 @@ Vibrations in civil structures arise from:
 ## 3.6 Equation of Motion of SDOF Systems  
 
 For a **spring–mass–damper system** under external force $F(t)$:  
-
-<img width="400" src="https://github.com/user-attachments/assets/placeholder-springmass.png" />  
-
-Equation:  
 
 $$
 m \ddot{x}(t) + c \dot{x}(t) + kx(t) = F(t)
@@ -154,6 +147,68 @@ Where:
   x(t) = \int_0^t g(t-\tau)\, F(\tau) \, d\tau
   $$  
 
-  📌 *Interpretation*: Response at time $t$ depends on the **history of applied forces**.  
+## 3.9 Example Problems  
+
+### Example 1: Natural Frequency of an Undamped SDOF System  
+
+A block of mass $m = 100 \, \text{kg}$ is attached to a spring with stiffness $k = 25,000 \, \text{N/m}$.  
+Find the natural frequency.  
+
+**Solution**:  
+
+Natural frequency:  
+$$
+\omega_n = \sqrt{\tfrac{k}{m}} = \sqrt{\tfrac{25000}{100}} = \sqrt{250} = 15.81 \, \text{rad/s}
+$$  
+
+Frequency in Hz:  
+$$
+f_n = \tfrac{\omega_n}{2\pi} = \tfrac{15.81}{6.283} = 2.52 \, \text{Hz}
+$$  
+
+### Example 2: Damped Vibration  
+
+A system has $m = 200 \, \text{kg}$, $k = 50,000 \, \text{N/m}$, and damping coefficient $c = 2000 \, \text{Ns/m}$.  
+Determine the damping ratio and type of damping.  
+
+**Solution**:  
+
+Natural frequency:  
+$$
+\omega_n = \sqrt{\tfrac{k}{m}} = \sqrt{\tfrac{50000}{200}} = \sqrt{250} = 15.81 \, \text{rad/s}
+$$  
+
+Critical damping coefficient:  
+$$
+c_c = 2 \sqrt{km} = 2 \sqrt{50000 \times 200} = 2 \times 3162.28 = 6324.56 \, \text{Ns/m}
+$$  
+
+Damping ratio:  
+$$
+\zeta = \tfrac{c}{c_c} = \tfrac{2000}{6324.56} = 0.316 < 1
+$$  
+
+📌 Hence the system is **underdamped**.  
+
+### Example 3: Forced Vibration under Harmonic Load  
+
+A machine foundation is modeled as an SDOF system with $m = 500 \, \text{kg}$, $k = 200,000 \, \text{N/m}$, and negligible damping.  
+If subjected to harmonic force $F(t) = 1000 \sin(100 t)$, determine whether resonance occurs.  
+
+**Solution**:  
+
+Natural frequency:  
+$$
+\omega_n = \sqrt{\tfrac{k}{m}} = \sqrt{\tfrac{200000}{500}} = \sqrt{400} = 20 \, \text{rad/s}
+$$  
+
+Forcing frequency:  
+$$
+\omega = 100 \, \text{rad/s}
+$$  
+
+Since $\omega \gg \omega_n$,  
+📌 **No resonance occurs**. Instead, response amplitude is small due to high forcing frequency.  
 
 ---
+
