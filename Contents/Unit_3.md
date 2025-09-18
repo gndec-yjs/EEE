@@ -21,7 +21,12 @@
 - [Equation of Motion of SDOF Systems](#36-equation-of-motion-of-sdof-systems)  
 - [Undamped and Damped Systems under Transient Forces](#37-undamped-and-damped-systems-under-transient-forces)  
 - [General Solution and Green’s Function](#38-general-solution-and-greens-function)  
-- [Example Problems](#39-example-problems)  
+- [Example Problems](#39-example-problems)
+
+## Notes
+
+- [Theory of Vibration](Resources/Theory_of_Vibration.pdf)
+- [Vibration Analysis](Resources/Vibration_Analysis.pdf)
 
 ## 3.1 Introduction to Theory of Vibrations  
 
