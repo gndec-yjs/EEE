@@ -98,9 +98,12 @@ $$
 Where:  
 - $m$ = mass  
 - $c$ = damping coefficient  
-- $k$ = stiffness  
+- $k$ = stiffness
 - $x(t)$ = displacement  
 - $F(t)$ = external force  
+- $m \ddot{x}(t)$ : **Inertial force**  
+- $c \dot{x}(t)$ : **Damping force** (energy dissipation)  
+- $k x(t)$ : **Restoring force** from the spring
 
 ## 3.7 Undamped and Damped Systems under Transient Forces  
 
