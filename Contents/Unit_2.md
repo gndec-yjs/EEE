@@ -18,7 +18,9 @@
 - [Types of Damages to Buildings](#23-types-of-damages-to-buildings)  
 - [Case Studies](#24-case-studies)
 
-- [Notes - Reasons of failure of buildings](Resources/Reasons_of_failure_of_buildings.pdf)
+## Notes
+
+- [Reasons of failure of buildings](Resources/Reasons_of_failure_of_buildings.pdf)
 
 ## 2.1 Major Past Earthquakes  
 
